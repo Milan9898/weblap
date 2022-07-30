@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booking | Unicorn Space Tours</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#tours">Tours</a></li>
+        <li>Book Now</a></li>
+      </ul>
+    </nav>
+   <header class="background-dark">
+     <div class="wrapper center">
+      <h1 >Book your Tour</h1>
+      <p class="lead center max-line-length">
+           Complete the booking form, and get ready for blast off! </p>
+     </div>
+
+     <img  class="unicorn" src="img/unicorn.svg" alt="unicorn grapic" />
+     
+   </header>
+   <main class="wrapper cemter">
+        <form class="center margin-v-lg padding-v-lg">
+            <div class="form-field">
+                    <label for="first_name">Fist name</label>
+                    <input class="form-input" type="text" name="first_name" id="first_name" >
+            </div>
+            <div class="form-field">
+                <label for="last_name">Last name</label>
+                <input class="form-input" type="text" name="last_name" id="last_name" >
+        </div>
+        <div class="form-field">
+            <label for="email">Email</label>
+            <input class="form-input" type="text" name="email" id="email" >
+    </div>
+    <div class="form-field">
+        <label for="tour">Tour</label>
+        <select class="form-input" name="" id="tour">
+            <Option disabled selected>Make a selection</Option>
+            <Option value="Mars">Mars</Option>
+            <Option value="Saturn">Saturn</Option>
+            <Option value="Pluto">Pluto</Option>
+        </select>
+</div>
+<div class="form-field">
+    <button type="submit" class="button">Book your Tour</button>
+</div>
+        </form>
+     
+   </main>
+   <div class="background-black padding-v-md">
+    <footer class="center wrapper flexbox">
+      <img src="img/logo.svg" alt="">
+      <p class="margin-v-0">&copy; 2020 Unicorc Space Tours</p>
+         </footer>
+   </div>
+   
+  </body>
+</html>
